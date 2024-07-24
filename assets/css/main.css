@@ -4312,3 +4312,28 @@ input, select, textarea {
 				}
 
 		}
+
+
+/* rating for my programming language proficiency */
+.rating {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.circle {
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    margin-right: 5px;
+    background-color: white;
+	border: 2px solid white;
+}
+
+.circle.filled {
+    background-color: white;
+}
+
+.circle.empty {
+    background-color: #2a2f4a;
+}
