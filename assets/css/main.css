@@ -2434,7 +2434,6 @@ input, select, textarea {
 
 	.table-wrapper {
 		-webkit-overflow-scrolling: touch;
-		overflow-x: auto;
 	}
 
 	table {
@@ -2454,6 +2453,7 @@ input, select, textarea {
 
 		table td {
 			padding: 0.75em 0.75em;
+			width: 60vw;
 		}
 
 		table th {
@@ -4316,8 +4316,9 @@ input, select, textarea {
 
 /* rating for my programming language proficiency */
 .rating {
-    display: inline-block;
+    display: block;
     margin-left: 10px;
+	width: 10vw;
 }
 
 .circle {
